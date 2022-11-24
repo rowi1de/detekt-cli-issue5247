@@ -25,6 +25,31 @@ style:
   MagicNumber:
     ignoreNamedArgument: true
     excludes: [ '**/test/**', '**/dev/**', '**/*Test.kt' ]
+# when using --build-upon-default-config the following rules will show  The rule 'XYZ' requires type resolution but it was run without it.
+  ObjectLiteralToLambda:
+    active: false
+  UnnecessaryApply:
+    active: false
+  UnnecessaryFilter:
+    active: false
+  VarCouldBeVal:
+    active: false
+  ForbiddenVoid:
+    active: false
+  UselessCallOnNotNull:
+    active: false
+  UseCheckNotNull:
+    active: false
+  UseRequireNotNull:
+    active: false
+  RedundantHigherOrderMapUsage:
+    active: false
+  UseIsNullOrEmpty:
+    active: false
+  UseOrEmpty:
+    active: false
+  UseAnyOrNoneInsteadOfFind:
+    active: false
 
 complexity:
   LongParameterList:
@@ -59,17 +84,62 @@ comments:
   CommentOverPrivateProperty:
     active: false
 
+# when using --build-upon-default-config the following rules will show  The rule 'XYZ' requires type resolution but it was run without it.
 naming:
   FunctionMaxLength:
     active: true
     maximumFunctionNameLength: 100
+  NoNameShadowing:
+    active: false
 
+
+# when using --build-upon-default-config the following rules will show  The rule 'XYZ' requires type resolution but it was run without it.
 coroutines:
   active: true
+  InjectDispatcher:
+    active: false
+  RedundantSuspendModifier:
+    active: false
+  SuspendFunWithFlowReturnType:
+    active: false
+  SleepInsteadOfDelay:
+    active: false
 
+# when using --build-upon-default-config the following rules will show  The rule 'XYZ' requires type resolution but it was run without it.
 potential-bugs:
   active: true
+  HasPlatformType:
+    active: false
+  AvoidReferentialEquality:
+    active: false
+  DoubleMutabilityForCollection:
+    active: false
+  UnnecessaryNotNullOperator:
+    active: false
+  UnreachableCode:
+    active: false
+  UnsafeCallOnNullableType:
+    active: false
+  UnsafeCast:
+    active: false
+  IgnoredReturnValue:
+    active: false
+  UnreachableCatchBlock:
+    active: false
+  UnusedUnaryOperator:
+    active: false
+  UnnecessarySafeCall:
+    active: false
 
+# when using --build-upon-default-config the following rules will show  The rule 'XYZ' requires type resolution but it was run without it.
 exceptions:
   TooGenericExceptionCaught:
+    active: false
+  ReturnFromFinally:
+    active: false
+
+# when using --build-upon-default-config the following rules will show  The rule 'XYZ' requires type resolution but it was run without it.
+performance:
+  active: true
+  ArrayPrimitive:
     active: false
