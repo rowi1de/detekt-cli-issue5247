@@ -9,6 +9,8 @@ formatting:
     active: false
   MaximumLineLength:
     maxLineLength: 150
+  Indentation:
+    active: false # this works
 
 style:
   MaxLineLength:
