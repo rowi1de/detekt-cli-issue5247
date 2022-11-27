@@ -1,5 +1,6 @@
 # detekt-cli-issue #5247
-Reproducer https://github.com/detekt/detekt/issues/5247
+- Reproducer for https://github.com/detekt/detekt/issues/5247 
+- Root cause https://github.com/Homebrew/homebrew-core/issues/116784
 
 # HowTo
 - Install https://direnv.net/
